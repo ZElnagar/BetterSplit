@@ -1,0 +1,31 @@
+# ---- Node / Next.js ----
+frontend/node_modules
+frontend/.next
+frontend/.env.local
+frontend/.env
+frontend/out
+
+# ---- Python / FastAPI ----
+backend/__pycache__/
+backend/.venv/
+backend/env/
+backend/.mypy_cache/
+backend/.pytest_cache/
+backend/.env
+backend/.env.local
+
+# ---- Logs ----
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+
+# ---- Editor files ----
+.vscode/
+.idea/
+*.swp
+*.swo
